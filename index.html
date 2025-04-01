@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Writings.dev</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Recursive:wght,CASL,CRSV@300..1000,0..1,0..1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <nav class="navbar">
+    <a href="#home">Writing.dev</a>
+    <div class="nav-link">
+      <a href="#categories">categories</a>
+      <a href="#articles">articles</a>
+      <a href="#about">about</a>
+    </div>
+  </nav>
+  <body>
+    <div class="header-group">
+      <div class="header-logo">
+        <svg
+          width="195"
+          height="205"
+          viewBox="0 0 195 205"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M34.141 204.084C21.3345 204.077 12.9429 195.044 9.54285 187.142C7.62265 183.194 0 166.612 0 152.214C0 138.165 8.26868 124.824 20.5499 117.811V115.692C20.5499 107.488 27.2247 100.814 35.4286 100.814H44.5825C40.5945 87.9757 36.1685 61.7949 55.7527 39.2444C58.5961 35.983 62.6868 34.1231 66.9922 34.1231C67.0235 34.1231 67.0548 34.1231 67.0883 34.1231C78.1199 19.3584 100.355 0 141.073 0C154.143 0 168.391 2.0409 183.42 6.06683C188.141 7.33876 191.934 10.8371 193.58 15.4308C195.223 20.0536 194.498 25.1659 191.646 29.1293C190.557 30.6404 189.518 32.1649 188.494 33.6649L188.284 33.9711C184.712 39.2131 181.008 44.6451 175.947 49.3483C172.585 52.4734 167.982 55.8935 162.624 58.8263C162.655 62.6645 161.193 66.4199 158.426 69.279C133.915 94.55 112.446 107.046 95.7459 113.028C95.9024 113.893 95.9851 114.782 95.9851 115.692V117.811C108.264 124.822 116.535 138.165 116.535 152.214C116.535 166.59 108.91 183.192 106.994 187.14C103.599 195.033 95.2183 204.064 82.4387 204.084H34.141Z"
+            fill="#F2F2F2"
+          />
+          <path
+            d="M131.281 50.7695C144.565 53.4306 159.002 44.7818 165.816 38.4502C171.025 33.6102 174.885 26.9498 179.568 20.4412C90.2695 -3.49325 71.2036 56.9454 71.2036 56.9454C71.2036 56.9454 68.4342 58.6419 66.9885 48.9987C46.4007 72.7033 61.0884 102.466 61.0884 102.466C61.0884 102.466 95.5169 112.768 147.739 58.926C139.083 57.6306 135.824 55.5498 131.281 50.7695Z"
+            fill="#FF7575"
+            stroke="#40396E"
+            stroke-width="5"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M81.1069 127.964V115.694C81.1069 115.694 81.1067 115.693 81.1064 115.693H35.4291V127.964C23.7725 130.127 14.8793 141.156 14.8793 152.215C14.8793 164.545 23.0991 180.993 23.0991 180.993C23.0991 180.993 26.1796 189.2 34.1399 189.205C47.4147 189.205 69.1387 189.205 82.4136 189.205C90.3594 189.191 93.4368 180.993 93.4368 180.993C93.4368 180.993 101.657 164.545 101.657 152.215C101.657 141.156 92.7634 130.127 81.1069 127.964Z"
+            fill="#9AA2E6"
+            stroke="#40396E"
+            stroke-width="5"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M134.269 35.3951C81.115 54.163 54.0728 100.319 50.7245 149.772"
+            stroke="#40396E"
+            stroke-width="5"
+            stroke-miterlimit="10"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M88.5627 143.995H27.9734C26.3459 146.585 25.3882 149.478 25.3882 152.215C25.3882 160.739 30.6942 173.225 32.741 177.315L32.9341 177.701L33.0821 178.104C33.0862 178.104 34.3562 180.985 36.4317 180.985H80.1002C82.1634 180.985 83.4416 178.137 83.4499 178.104L83.5978 177.701L83.791 177.315C85.8377 173.213 91.1478 160.686 91.1478 152.215C91.1478 149.478 90.1902 146.585 88.5627 143.995Z"
+            fill="#707CC0"
+          />
+        </svg>
+      </div>
+      <div class="header-text">Writings For Developers</div>
+      <p class="header-paragraph">
+        Cureated collection of articles for busy developers
+      </p>
+    </div>
+    <hr />
+    <div class="category-listing">
+      <a
+        ><svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 6H0V0H6V6ZM15 0H9V6H15V0ZM24 0H18V6H24V0ZM6 9H0V15H6V9ZM15 9H9V15H15V9ZM24 9H18V15H24V9ZM6 18H0V24H6V18ZM15 18H9V24H15V18ZM24 18H18V24H24V18Z"
+            fill="#909090"
+          />
+        </svg>
+      </a>
+      <a
+        ><svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_31_325)">
+            <path
+              d="M0 4.36364H24V0H0V4.36364ZM0 14.1818H24V9.81818H0V14.1818ZM0 24H24V19.6364H0V25.0909V24Z"
+              fill="#909090"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_31_325">
+              <rect width="24" height="24" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </a>
+      <a>JavaScript</a>
+      <a>DevOps</a>
+      <a>Cloud</a>
+      <a>Terraform</a>
+      <a>Architecture</a>
+      <a>Scalability</a>
+      <a>Explainers</a>
+    </div>
+
+    <div class="articles-listing">
+      <div class="cards">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/0350/0828/5709de425cf702f1221e8a649f819070?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=D7srcs0RrXbOmbEkNz1e~LdMWUSB~3op4PJ0MNjQ1ApTOqQpwe9rVAhslCeZvaVMPsWNXh3tmjtCQoa7CepgT~QEq9HzLLkIBgPXio8TBjOa5ZJ8Mn4h-S1XagQnS7hvgrSjtQeS7YwD1yWdqhFRP-Co0up7nIjtBhZXHqqCg0nPCNoEu8ZXwV05hYnH-L~jRXTJatn7rkNZHOh0xATtTSU0ox8bDdy-koII~Jni2lXdSSMseaDePikKqwGd~PN~lIhR5qhgZgEeJUzSlGCqCOaOl660NLaluB9hvI2PMYhT7En19SMYbgZ5i54bNOYjmGgDeoVtFJ431pVFyYBlLw__"
+          alt=""
+        />
+        <div class="cards-title">
+          Build continuous integration pipelines with GitHub Actions
+        </div>
+        <p class="cards-text">
+          GitHub actions provide a really powerful way to integrate continuous
+          integration and delivery into your applications.
+        </p>
+        <div class="cards-date-dev">Jun2 24, 2022 - Eggiar</div>
+      </div>
+      <div class="cards">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/9ed2/efce/17168c652b8637395e58effe720967e1?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=VSeItxbny~NXkbhmIMY8t9beMsqJHe48VDsIjTCgIIVbg1idENQypNb9RxoMgj283FD1E4wxpZU-PacyKTXSzOf05wMXVfkr~N4qpRC696n~zn5FUquE1b~4xuhTXR5aHcKGvYNkIfanzU3EYnvcKCA6K2JBdFm3Z75W-TodMvFA-B5k6Z0~oEL3P~iP3C2mgWc4Q3JeAITwufjlwm16JNgApxgmhQfe7yX4NgiteOnDhVqoB8~NVO18s068ygGyH3hahQ-kE9wBka19ukqHDigQb-mlfjdhyeowGZn3MK8GquqJtwyQfiGT3irJZg98yrvZRNvmbEgxLFhcd2sW2w__"
+          alt=""
+        />
+        <div class="cards-title">Python for the Absolute beginners</div>
+        <p class="cards-text">
+          Python is the most popular programming language out there and it is
+          used for so many different industries.
+        </p>
+        <div class="cards-date-dev">Jun2 24, 2022 - Eggiar</div>
+      </div>
+      <div class="cards">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/44ca/40c3/175d81087739c4de7be46af6fe4750f3?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=d9CHEZK5bSGI8jF5FtGZ5KtogSgG6mjvIwVSF58rQZ-WEv55CcOfkOxnAlFQPsUrjHkks9bptwpJ98GF5o2j3FZ793VJuE1ZHxdbHwT2hW8ajFwGTuTrBw8ssApFUS0mkgqZHBMGc~p3TggktM0htv-M9OnTOMRZMAlro9Kdsn8vnLvReILPeHNpYs50wzqAe0fY00ugjmLzuPO-tYttMAJmE2wYJsQy863Ewy8AaIaB9gvNz8O82eR2jI4-k9BctxJVn8rArkSMrLVCfRVXczi0hNyj0iEITqezXQR-mh3K5e~z56qHnzs4S~xax0HnbhZ5GiRFSpo47W9uRrPIhw__"
+          alt=""
+        />
+        <div class="cards-title">Docker from Zero to Hero</div>
+        <p class="cards-text">
+          Learn what is Docker and how Docker is used in the whole software
+          development process.
+        </p>
+        <div class="cards-date-dev">Jun2 24, 2022 - Eggiar</div>
+      </div>
+      <div class="cards">
+        <img
+          src="https://s3-alpha-sig.figma.com/img/d7ec/2f79/1637fa3c1562490089a9a1d89d45a721?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=l2tz66M6tVuL-wgarUkQgqVI-Y3U5cJogwx1IYT9Uq3qLqmh2CbjQaGeG-ILUCqHNFkwUgxpS7iEEIgW3dWib2EPjgwV7siLAem7OUTMO33Ez0nXg2KtFB8wV6PO-K21HsC5Bv-19Iy39JLfXSfNxSilY6zQSJ~bJH8kLveF2WmzPG1-~RjQY5a5CTERk9DPfq4EQ56am1MyO7SFDeskWae~qakLLH9hPdZL1PeTk0FUNbs~KOU6EfiI9gROSalg29CgJRoa~FZZ0vDNtguHfRAUfFZ4OWQLrfPkdBv4rth13z~K66pRi~G6cxX5B8m8Jb8HkwJZDmuTY82Ij~kN3Q__"
+          alt=""
+        />
+        <div class="cards-title">
+          Build continuous integration pipelines with GitHub Actions
+        </div>
+        <p class="cards-text">
+          GitHub actions provide a really powerful way to integrate continuous
+          integration and delivery into your applications.
+        </p>
+        <div class="cards-date-dev">Jun2 24, 2022 - Eggiar</div>
+      </div>
+      <div class="cards">
+        <img
+          class="img-vertical"
+          src="https://s3-alpha-sig.figma.com/img/cb4f/5274/ce2639af6d5411391badbe56d48eba3b?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PaXZ8GZiET6I-TVvgX3A7AeoE7M1MUcteVAI3frm8fOIl5JQC2UMJSe8yYKAxZMsFX2XNxlZxp7QnAPjSms8nHSde9UuJ1uk9Q14kjfBRykIuLfX1SVDlxJ8fBXlx~QQsQ9T3LH~FKv6bRw0mWnaOoO6A~95Yx7n0YvhYeYk3cy6kfMcmjl9vkDr3h-4L9VbZQhyn9CXmnb1K3goXsy~Vz2v7DlyIuncXpWD4g9CEk7x1Exq5o8TJ0HYMPhdiRXX2LM5DMiRdd~i7JRoPnB7-4PTiAuC6Xbkn4lpG2Y6P0j80iP64jOX8MKSCogb6w4Pt4cNMJp23u1g~2VXT1pjWQ__"
+          alt=""
+        />
+        <div class="cards-title">
+          Build continuous integration pipelines with GitHub Actions
+        </div>
+        <p class="cards-text">
+          GitHub actions provide a really powerful way to integrate continuous
+          integration and delivery into your applications.
+        </p>
+        <div class="cards-date-dev">Jun2 24, 2022 - Eggiar</div>
+      </div>
+      <div class="cards">
+        <img
+          class="img-center"
+          src="https://s3-alpha-sig.figma.com/img/0ce4/0173/5df51073aeaea98c662874ec0fe877c7?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=i~64hRTEaLQE6Dth4BweSL-3~DiiL2XflFB0KiUDHGhY3TO4W1DRxFCcnmoS2nm3FVbtWsySTjFl7xzvfiXPSI-mOuBL4EtMkRmF33a2z8ERD5cVXlIdy4~7H7wwxKwa7NlB9I3w-Oz~YasLfxkqKGcs67XWfBMAYELznEALRwtHyI9vvEiu4qoyjMoYFMbowcjNTWojLyxQZPHfgn2nTLT3y-z1pRf00g2PgciGN3kHKvVW-Z0KTXnIZutOaZ8pbhWHyOJGoUHGVyb5St1ZzxD6~SDA49LCiX5BhbLlbICIGxT-6AHcl1H~MF-vKjD313H1~-tXqlT~1mi47fwR-A__"
+          alt=""
+        />
+        <div class="cards-title">
+          Build continuous integration pipelines with GitHub Actions
+        </div>
+        <p class="cards-text">
+          GitHub actions provide a really powerful way to integrate continuous
+          integration and delivery into your applications.
+        </p>
+        <div class="cards-date-dev">Jun2 24, 2022 - Eggiar</div>
+      </div>
+      <div class="cards">
+        <img
+          class="img-center"
+          src="https://s3-alpha-sig.figma.com/img/f9ed/84f3/d7aafc66f058e24cd1565d5b31b8b159?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NotbmcgRD1u6fCbJvCUrGnI2phGgVDlMOSDmhcuHq0a4IqFvRB1-ie-qQ0NJT6v4ZKW172rPWMLewxj851Litac6hpcOSwGwHiIXMPU90g6d9JaiGwnz7bySqGdkb8Q-98YoGzNO0FI60dIWrra6p4YoqpmWunlJ1U6hZuDCCHQTA3M-dckM5DpogtYERvByCyQz-75r-qj978kGo8GGOZgquNDbGVBjPkyy7nii617ijXXvcGrBxhv90BNenYMP2iW~YR3g3TvznUvvgKyg~HyIhOowsnIfLDEURyfwhhtsaiJIPfZZ7MARbe4AblbCxBrCNL8Vr42QOTb--rB10A__"
+          alt=""
+        />
+        <div class="cards-title">
+          Build continuous integration pipelines with GitHub Actions
+        </div>
+        <p class="cards-text">
+          GitHub actions provide a really powerful way to integrate continuous
+          integration and delivery into your applications.
+        </p>
+        <div class="cards-date-dev">Jun2 24, 2022 - Eggiar</div>
+      </div>
+      <div class="cards">
+        <img
+          class="img-center"
+          src="https://s3-alpha-sig.figma.com/img/024c/cc54/2c8c6590f8d50bae6a9261c3def3213c?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=T1Xb0DoiLlS2TGq2Q6K-gumkcQPuON5JBJRTQOvMs7~ZH4W6fkuHoROSOXwTexuzf~qkig-lg3-eKj2j93UvBN1bwSxSdIAb2UHmWxgCASQv7lxtNPCESpHqMWXZ1pj4QUSLIP7ug8lIvY6lHmJZ2nDizJ7nDMjOXPnnmtLQqaM195SKpMgxMrLV6wRkIwdUAB7XefBC53Of~JZF8NFm~bB~BYpL7wb8TCm4NBYJnzwKswcqHea002NWyFDe1t2TFhTkeR4P2kNTE7lrxtDQG6HTP7UTylaIFKEMGTXErnhjEIxQsnVss0TSuIBZZ5xADgGBTf4K8XNdFsUNuyMNhw__"
+          alt=""
+        />
+        <div class="cards-title">
+          Build continuous integration pipelines with GitHub Actions
+        </div>
+        <p class="cards-text">
+          GitHub actions provide a really powerful way to integrate continuous
+          integration and delivery into your applications.
+        </p>
+        <div class="cards-date-dev">Jun2 24, 2022 - Eggiar</div>
+      </div>
+      <div class="cards">
+        <img
+          class="img-center"
+          src="https://s3-alpha-sig.figma.com/img/ba2d/4da2/9cadc90900f167de5ee89c37a06d9b7a?Expires=1744588800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Iw7sQHx5UH7SLY-JqgoOdCbU3Dc4cKbmU6kWZMDfDvaxSKS4N8i22MVRYxVXTe8v075nfT~yZTDDlQ6XxdRh4oHNrKcWe464vdtra8gYJmy2FAGG~gXjf--G8mMO-ct3M8sAj0Y481bkuIBaY7QkZliCR42--LQTJmYbFn-zUXsNRh3FJArP6l7Lndf5JpNMmLuq-0-d0t3134-ZUgQjoTDVeEO7sPj3fh4iRauIpXZoWAWSMpezb0BYB~9DH-~o5NWCjh9UyUCJEMCcyuKjG2YlKEAEVZStLIWpjKzKqsWcdQ9GuI0CagCNF38vQWuL0kBlDbU~7ivuG01DnfXbBw__"
+          alt=""
+        />
+        <div class="cards-title">
+          Build continuous integration pipelines with GitHub Actions
+        </div>
+        <p class="cards-text">
+          GitHub actions provide a really powerful way to integrate continuous
+          integration and delivery into your applications.
+        </p>
+        <div class="cards-date-dev">Jun2 24, 2022 - Eggiar</div>
+      </div>
+    </div>
+
+    <div class="pagination">
+      <a href="#prev">Previous</a>
+      <a href="#1">1</a>
+      <div class="active"><a href="#2">2</a></div>
+      <a href="#3">3</a>
+      <a href="#4">4</a>
+      <a href="#5">5</a>
+      <a href="#next">Next</a>
+    </div>
+    <hr />
+  </body>
+  <footer>
+    <div>
+      writings.dev
+      <span class="blue-button"><a href="#twitter">by@kamrify</a></span>
+    </div>
+    <div>
+      <span class="blue-button"
+        ><a href="#twitter">Follow @writingsdev</a></span
+      >
+    </div>
+  </footer>
+
+</html>

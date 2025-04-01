@@ -1,0 +1,175 @@
+body {
+  background-color: #232830;
+  /* padding: 10px 10% 10px 10%; */
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #4D4D4D;
+    
+}
+.navbar {
+  /* width: 1236;
+  height: 515;
+  top: -370px;
+  left: -309px; */
+  display: flex;
+  font-family: Poppins;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar div a {
+  margin: 0px 20px 0px 0px;
+}
+
+.header-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 73px;
+}
+
+.header-group .header-logo {
+  margin-bottom: 40px;
+}
+
+.header-group .header-text {
+  font-family: Recursive;
+  font-size: 71px;
+  font-style: italic;
+  color: #ff7575;
+}
+.header-group .header-paragraph {
+  font-family: Poppins;
+  font-size: 29px;
+  color: white;
+}
+
+.category-listing {
+  display: flex;
+  color: #909090;
+  font-family: Recursive;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.articles-listing {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 20px 115px 20px;
+}
+
+.cards {
+  border-width: 1px;
+  background: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 22px;
+  overflow: hidden;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.cards img {
+  height: 250px;
+  width: 390px;
+  display: flex;
+  align-self: center;
+  border-radius: 22px;
+  object-fit: cover;
+  /* object-position: bottom; */
+}
+
+.cards .img-vertical {
+  display: flex;
+  align-self: center;
+  border-radius: 22px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.cards .img-center {
+  display: flex;
+  align-self: center;
+  border-radius: 22px;
+  object-fit: cover;
+  object-position: center;
+}
+.cards-title {
+  font-family: Poppins;
+  color: #0f1217;
+  font-size: 19px;
+  font-weight: 600;
+  margin: 33px 0px 10px 0px;
+}
+
+.cards-text {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.cards-date-dev {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  justify-self: end;
+
+  margin-top: auto;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.pagination a{
+    text-decoration: none;
+    color: #909090;
+    font-family: Recursive;
+    font-size: 25px;
+    margin: 0px 25px;
+}
+
+.pagination .active a{
+    color: #FF7575;
+    border-top: thick solid #FF7575 ;
+}
+
+footer{
+    margin-bottom: 100px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div{
+    color: white;
+    font-size: 19px;
+    font-family: Poppins;
+}
+
+footer .blue-button{
+    background-color: #4699E0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+footer a{
+    color: white;
+    font-size: 19px;
+    font-family: Poppins;
+    text-decoration: none;
+}
